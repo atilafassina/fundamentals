@@ -1,7 +1,8 @@
 <div align="center">
   <span>⭐ 🏈 🦄 🏀 🤘 🏉 ✨</span>
   <h1>FUNdamentals</h1>
-  <p>Examples of classic algorithms in JavaScript.</p>
+  <a href="https://travis-ci.org/atilafassina/fundamentals" alt="Travis-CI build badge"><img src="https://api.travis-ci.org/atilafassina/fundamentals.svg?branch=master" /></a>
+  <p>Computer Science fundamentals in JavaScript.</p>
   <p>Check below for recommended use-cases on each of them and relevant tradeoffs.</p>
 </div>
 
@@ -18,3 +19,7 @@ Requires a sorted `array` for it to work. Essentially a Binary Search break the 
 It‘s a simple to implement sort algorithm, not very efficient for large data sets, but quite efficiente and powerful for small ones. It can avoid confusion by not changing the order of equal set of keys. In a nutshell, Insertion Sort iterates twice through the `array`. First iteration corresponds to the target position, whilst second iteration is for comparison with future elements. Every time the current item is smaller than the comparison value, it is inserted in the current position and first iteration moves forward.
 
 [Implementation](https://github.com/atilafassina/fundamentals/tree/master/src/insertionSort)
+
+---
+
+Heavily inspired on [Algorithms.JS](http://felipernb.github.io/algorithms.js/) by Felipe Ribeiro.
