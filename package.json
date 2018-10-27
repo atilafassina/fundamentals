@@ -1,7 +1,7 @@
 {
-  "name": "study",
-  "version": "1.0.0",
-  "description": "",
+  "name": "fundamentals",
+  "version": "0.1.0",
+  "description": "🎓 Examples of classic algorithms in JavaScript with use-cases tradeoffs.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
